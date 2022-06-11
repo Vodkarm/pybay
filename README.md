@@ -3,7 +3,7 @@
 Hi! Welcome to the github of my first python package.
 Thanks you, and contributions are welcome.
 
-[![Downloads](https://pepy.tech/badge/pybay)](https://pepy.tech/project/pybay)
+<img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />[![Downloads](https://pepy.tech/badge/pybay)](https://pepy.tech/project/pybay)
 
 
 # ❓ What is it ?
