@@ -46,7 +46,7 @@ from pybay import File, Info
 print("Long file URL: " + Info.Long(File.Upload("myfile.txt", 1))
 print("Short file URL: " + Info.Short(File.Upload("myfile.txt", 1))
 print("File's Name: " + Info.Name(File.Upload("myfile.txt", 1))
-print("File's Size: " + Info.Size(File.Upload("myfile.txt", 1), 1) # You can use 1 or 2 as a response argument
+print("File's Size: " + Info.Size(File.Upload("myfile.txt", 1), 1) # In this situation, 2 can't work because it return the link and not the id.
 ```
 ***Info.Size*** need 2 arguments:
  - **FilePath**
