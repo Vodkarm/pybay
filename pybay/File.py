@@ -14,7 +14,7 @@ class File:
     def file_path(self):
         return self.__file_path
 
-    def upload(self, param):
+    def upload(self, param: int):
         """
         Uploads the file to bayfiles.com
         """
