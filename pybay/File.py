@@ -18,8 +18,8 @@ class File:
         """
         Uploads the file to bayfiles.com
         """
-        file = dict(file=open(self.file_path, "rb"))
-        request = requests.post(API_UPLOAD_URL, files=file)
+        files = dict(file=open(self.file_path, "rb"))
+        request = requests.post(API_UPLOAD_URL, files=files, headers={"Content-Type": "application/x-www-form-urlencoded"})
         response = request.json()
         data = None
 

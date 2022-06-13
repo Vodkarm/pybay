@@ -1,6 +1,6 @@
 import requests
 
-API_FILE_URL = "https://api.bayfiles.com/v2/files/{}/info"
+API_FILE_URL = "https://api.bayfiles.com/v2/file/{}/info"
 
 
 class Size:
