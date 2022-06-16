@@ -25,7 +25,7 @@ print(File.Upload("path/of/my/file.txt", 1) # You can use 1 or 2 as a response p
 _**File.Upload()**_ need 2 arguments 
  - **FilePath**
  - **Response type** (_1 or 2_)
-For _Response type_, **1** will return file id and **2** will return file url
+For _Response type_, **1** will return file id and **2** will return file url<br>
 _**1** response exemple_:
 ```
 n7nad3p9yf
